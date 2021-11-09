@@ -35,8 +35,9 @@ header {
 /* Main container */
 
 .container {
+    width: 1080px;
     background-color: white;
-    margin: 50px 25%;
+    margin: 50px auto;
     border-radius: 10px;
 }
 
