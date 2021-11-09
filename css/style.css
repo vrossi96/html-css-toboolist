@@ -37,13 +37,13 @@ header {
 .container {
     background-color: white;
     margin: 50px 25%;
-    height: 1080px;
     border-radius: 10px;
 }
 
 .sections {
-    margin-top: 30px;
-    margin-left: 30px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
 }
 
 /* Buttons */
@@ -77,6 +77,62 @@ header {
     font-weight: 500;
 }
 
+.down-arrow {
+    font-size: 15px;
+}
+
 p {
-    margin: 10px;
+    margin: 25px 10px;
+}
+
+/* check */
+.check {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.check-yes {
+    color: green;
+    border-color: green;
+}
+
+.check-no {
+    color: red;
+    border-color: red;
+}
+
+/* labels */
+.label {
+    padding: 3px 12px;
+    border-radius: 15px;
+    color: white;
+}
+
+.label-blue {
+    background-color: #45abea;
+}
+
+.label-violet {
+    background-color: #9c72e4;
+}
+
+.label-orange {
+    background-color: #f29e33;
+}
+
+.label-cyan {
+    background-color: #64c0a9;
+}
+
+.label-pink {
+    background-color: #d863a1;
+}
+
+.label-peas {
+    background-color: #b0c926;
 }
